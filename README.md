@@ -22,7 +22,7 @@ Defining a trading strategy using this framework involves six main steps:
     - `StdDevFilter`: Same idea as CumReturnFilter except for smallest m standard deviations.
     - `SharpeFilter`: Same idea except for top X Sharpe tickers.
 5. #### Into a `Strategy` object, combine the secondary filters with info about when to enter/exit trades, min hold time, whether to go short/long.
-6. #### Into a `BackTest` object, combine the Entry and Exit filter objects from step 3 along with the Strategy object from step 5. This class contains methods for obtaining a summary and plots of the strategy's performance.
+6. #### Into a `BackTest` object, combine the Entry and Exit filter objects from step 3 along with the Strategy object from step 5. Contains methods for obtaining a summary and plots of the strategy's performance.
 
 The module has much more functionality than was demonstrated in the short blurb above. For more complex use cases, see the example code section of this repository.
 
