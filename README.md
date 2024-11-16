@@ -3,6 +3,10 @@
 <p align="center">
   <align="center">A flexible python module for backtesting rule-based stock trading strategies 
 </p>
+    
+<p align="center">
+<img src="images/backtest_plot.png" alt="backtest plot" width="500">
+</p>
 
 
 ## Framework
